@@ -83,6 +83,7 @@ plugins=(... kubectl)
 |         |                                     | **Logs**                                                                                         |
 | kl      | `kubectl logs`                      | Print the logs for a container or resource                                                       |
 | klf     | `kubectl logs -f`                   | Stream the logs for a container or resource (follow)                                             |
+| klf     | `kubectl logs -f --tail=0`          | Stream the logs for a container or resource (follow from current position)                       |
 |         |                                     | **File copy**                                                                                    |
 | kcp     | `kubectl cp`                        | Copy files and directories to and from containers                                                |
 |         |                                     | **Node management**                                                                              |

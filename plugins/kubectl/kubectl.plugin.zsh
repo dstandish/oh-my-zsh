@@ -116,6 +116,7 @@ alias kgaa='kubectl get all --all-namespaces'
 # Logs
 alias kl='kubectl logs'
 alias klf='kubectl logs -f'
+alias klft='kubectl logs -f --tail=0'
 
 # File copy
 alias kcp='kubectl cp'
